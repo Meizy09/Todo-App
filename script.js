@@ -19,7 +19,7 @@ function setTheme() {
 darkModeBtn.addEventListener('click', function() {
     var isDark = document.body.getAttribute('data-theme') === 'dark';
     document.body.setAttribute('data-theme', isDark ? 'light' : 'dark');
-    darkModeImg.src = isDark ? './images/icon-moon.svg' : './img/icon-sun.svg';
+    darkModeImg.src = isDark ? './images/icon-moon.svg' : './images/icon-sun.svg';
     localStorage.setItem('darkTheme', !isDark);
 });
 
